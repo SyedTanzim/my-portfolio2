@@ -84,7 +84,7 @@ export const projects: Project[] = [
     description:
       'A full-stack typing performance platform with a GraphQL API on Bun, React/TypeScript client, JWT auth with bcrypt, real-time scoring engine, global leaderboard, and automated test suites deployed on Vercel + Railway.',
     techStack: ['React', 'TypeScript', 'GraphQL', 'Bun', 'PostgreSQL', 'Prisma', 'JWT'],
-    liveUrl: 'https://typesprint.vercel.app',
+    liveUrl: 'https://typing-speed-game-burdenoff.vercel.app',
     githubUrl: 'https://github.com/SyedTanzim/typesprint',
     imageUrl: '',
     featured: true,
