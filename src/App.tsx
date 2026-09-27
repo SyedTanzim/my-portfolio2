@@ -1,10 +1,11 @@
 import '@/index.css'
 import { useState } from 'react'
 import Navbar from '@/components/Navbar'
-import Hero from './components/Hero'
+import Hero from '@/components/Hero'
+import About from '@/components/About'
 
 function App() {
-  const [isDark, setIsDark] = useState(true)
+  const [isDark, setIsDark] = useState(false)
 
   return (
     <div className={isDark ? 'dark' : ''}>
@@ -12,7 +13,7 @@ function App() {
         <Navbar isDark={isDark} onToggle={() => setIsDark(prev => !prev)} />
         <main>
           <Hero />
-          {/* About */}
+          <About />
           {/* Skills */}
           {/* Experience */}
           {/* Projects */}
