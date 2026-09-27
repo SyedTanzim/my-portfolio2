@@ -1,6 +1,7 @@
 import '@/index.css'
 import { useState } from 'react'
 import Navbar from '@/components/Navbar'
+import Hero from './components/Hero'
 
 function App() {
   const [isDark, setIsDark] = useState(true)
@@ -10,7 +11,7 @@ function App() {
       <div className="min-h-screen bg-background text-foreground">
         <Navbar isDark={isDark} onToggle={() => setIsDark(prev => !prev)} />
         <main>
-          {/* Hero */}
+          <Hero />
           {/* About */}
           {/* Skills */}
           {/* Experience */}
