@@ -13,7 +13,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="flex min-h-[90vh] flex-col items-center justify-center px-6 text-center"
+      className="flex min-h-[90vh] flex-col items-center justify-center px-6 text-center bg-sketchbook-grid"
     >
       <motion.div
         initial={{ opacity: 0, y: 30 }}
