@@ -39,11 +39,3 @@ export interface SocialLink {
   url: string
   icon: string
 }
-
-export interface Certificate {
-  id: number
-  name: string
-  issuer: string
-  date: string
-  url?: string
-}
