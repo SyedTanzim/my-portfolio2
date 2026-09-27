@@ -13,7 +13,7 @@ export default function Navbar({ isDark, onToggle }: NavbarProps) {
         <header className="sticky top-0 z-50 border-b border-border bg-background/80 backdrop-blur-sm">
             <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
                 {/* Logo / Name */}
-                <a href="#" className="text-lg font-semibold tracking-tight">
+                <a href="#hero" className="text-lg font-semibold tracking-tight">
                     {name}
                 </a>
                 {/* Nav Links */}

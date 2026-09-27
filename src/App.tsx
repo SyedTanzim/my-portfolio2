@@ -34,9 +34,13 @@ function App() {
     function handleAnchorClick(e: MouseEvent) {
       const anchor = (e.target as HTMLElement).closest('a')
       const href = anchor?.getAttribute('href')
-      if (href && href.startsWith('#') && href !== '#') {
+      if (href && href.startsWith('#')) {
         e.preventDefault()
-        lenis.scrollTo(href, { offset: -80 }) // -80px offset accounts for your sticky navbar!
+        if (href === '#' || href === '#hero') {
+          lenis.scrollTo(0)
+        } else {
+          lenis.scrollTo(href, { offset: -80 }) // -80px offset accounts for your sticky navbar!
+        }
       }
     }
     
