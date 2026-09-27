@@ -4,6 +4,7 @@ import Navbar from '@/components/Navbar'
 import Hero from '@/components/Hero'
 import About from '@/components/About'
 import Skills from '@/components/Skills'
+import Experience from '@/components/Experience'
 
 function App() {
   const [isDark, setIsDark] = useState(false)
@@ -16,7 +17,7 @@ function App() {
           <Hero />
           <About />
           <Skills />
-          {/* Experience */}
+          <Experience />
           {/* Projects */}
           {/* Certifications */}
           {/* Contact */}
