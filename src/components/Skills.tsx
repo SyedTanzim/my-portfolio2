@@ -52,15 +52,15 @@ export default function Skills() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.4, delay: i * 0.05 }}
-                className="flex flex-wrap items-start gap-3"
+                className="flex flex-col sm:flex-row sm:items-start gap-2 sm:gap-3"
               >
                 {/* Category label */}
-                <span className="w-28 shrink-0 pt-1 text-sm font-medium text-muted-foreground">
+                <span className="w-auto sm:w-28 shrink-0 pt-1 text-sm font-medium text-muted-foreground">
                   {CATEGORY_LABELS[category]}
                 </span>
 
                 {/* Skill badges */}
-                <div className="flex flex-wrap gap-2">
+                <div className="flex-1 flex-wrap gap-2">
                   {categorySkills.map((skill) => (
                     <Badge key={skill.name} variant="secondary">
                       {skill.name}
