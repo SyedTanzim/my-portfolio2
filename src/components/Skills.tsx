@@ -5,7 +5,7 @@ import { Badge } from '@/components/ui/badge'
 
 // All unique categories in the order we want them displayed
 const CATEGORIES: Skill['category'][] = [
-  'language', 'frontend', 'backend', 'database', 'devops', 'tools',
+  'language', 'frontend', 'backend', 'database', 'devops', 'tools', 'ai',
 ]
 
 // Human-readable label for each category key
@@ -16,6 +16,7 @@ const CATEGORY_LABELS: Record<Skill['category'], string> = {
   database: 'Databases',
   devops:   'DevOps',
   tools:    'Tools',
+  ai:       'AI Tools',
 }
 
 export default function Skills() {
@@ -60,7 +61,7 @@ export default function Skills() {
                 </span>
 
                 {/* Skill badges */}
-                <div className="flex-1 flex-wrap gap-2">
+                <div className="flex-1 flex flex-wrap gap-2">
                   {categorySkills.map((skill) => (
                     <Badge key={skill.name} variant="secondary">
                       {skill.name}

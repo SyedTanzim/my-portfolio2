@@ -28,14 +28,16 @@ export const skills: Skill[] = [
 
     // Frontend
     { name: 'React.js', icon: 'SiReact', category: 'frontend', proficiency: 'advanced' },
+    { name: 'Tailwind CSS', icon: 'SiTailwindcss', category: 'frontend', proficiency: 'advanced' },
+    { name: 'Bootstrap', icon: 'BsBootstrap', category: 'frontend', proficiency: 'advanced' },
     { name: 'HTML5', icon: 'SiHtml5', category: 'frontend', proficiency: 'expert' },
     { name: 'CSS3', icon: 'SiCss3', category: 'frontend', proficiency: 'expert' },
-    { name: 'Tailwind CSS', icon: 'SiTailwindcss', category: 'frontend', proficiency: 'advanced' },
 
     // Backend
     { name: 'FastAPI', icon: 'SiFastapi', category: 'backend', proficiency: 'advanced' },
     { name: 'Node.js', icon: 'SiNodedotjs', category: 'backend', proficiency: 'advanced' },
     { name: 'Express.js', icon: 'SiExpress', category: 'backend', proficiency: 'advanced' },
+    { name: 'REST APIs', icon: 'SiApi', category: 'backend', proficiency: 'advanced' },
 
     // Database
     { name: 'PostgreSQL', icon: 'SiPostgresql', category: 'database', proficiency: 'advanced' },
@@ -43,9 +45,17 @@ export const skills: Skill[] = [
     { name: 'MongoDB', icon: 'SiMongodb', category: 'database', proficiency: 'intermediate' },
 
     // DevOps/Tools
-    { name: 'Docker', icon: 'SiDocker', category: 'devops', proficiency: 'intermediate' },
+    { name: 'Docker', icon: 'SiDocker', category: 'tools', proficiency: 'intermediate' },
     { name: 'Git', icon: 'SiGit', category: 'tools', proficiency: 'expert' },
+    { name: 'GitHub', icon: 'SiGithub', category: 'tools', proficiency: 'expert' },
     { name: 'Vercel', icon: 'SiVercel', category: 'tools', proficiency: 'advanced' },
+    { name: 'Railways', icon: 'SiRailways', category: 'tools', proficiency: 'advanced' },
+
+    // Ai Tools
+    { name: 'Codex', icon: 'SiCodex', category: 'ai', proficiency: 'expert' },
+    { name: 'Cursor', icon: 'SiCursor', category: 'ai', proficiency: 'expert' },
+    { name: 'Claude Code', icon: 'SiClaude', category: 'ai', proficiency: 'expert' },
+    { name: 'Antigravity', icon: 'SiAntigravity', category: 'ai', proficiency: 'advanced' },
 ]
 
 export const experience: Experience[] = [
